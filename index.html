@@ -36,343 +36,26 @@
 </head>
 
 <body>
-  <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease"
-    role="banner" class="navbar w-nav"><a href="#" class="brand-mobile w-nav-brand"><img
-        src="images/6109d47bc8f20c016fc04d7b_logo.svg" loading="lazy" alt="" class="logo-mobile"></a>
-    <nav role="navigation" class="nav-menu w-nav-menu">
-      <div class="w-layout-grid grid-navbar">
-        <div id="w-node-_07425466-8eb7-6e44-8292-395d2ea97cad-2ea97ca8" class="block-navbar">
-          <div data-hover="true" data-delay="300" class="dropdown w-dropdown">
-            <div class="dropdown-toggle w-dropdown-toggle">
-              <div class="dropdown-text">Home</div>
-              <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-            </div>
-            <nav class="dropdown-list w-dropdown-list"><a href="/home-a" aria-current="page"
-                class="dropdown-link w-dropdown-link w--current">Home A</a><a href="/home-b"
-                class="dropdown-link w-dropdown-link">Home B</a><a href="/home-c"
-                class="dropdown-link w-dropdown-link">Home C</a></nav>
-          </div><a href="/portfolio" class="nav-link w-nav-link">Portfolio<br></a>
-          <div data-hover="true" data-delay="300" class="dropdown w-dropdown">
-            <div class="dropdown-toggle w-dropdown-toggle">
-              <div class="dropdown-text">Pages</div>
-              <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-            </div>
-            <nav class="dropdown-list w-dropdown-list"><a href="/contact"
-                class="dropdown-link w-dropdown-link">Contact</a><a href="/about/about-a"
-                class="dropdown-link w-dropdown-link">About A</a><a href="/about/about-b"
-                class="dropdown-link w-dropdown-link">About B</a><a href="/about/about-c"
-                class="dropdown-link w-dropdown-link">About C</a></nav>
-          </div>
-        </div><a href="/" class="brand w-nav-brand"><img src="images/6109d47bc8f20c016fc04d7b_logo.svg" loading="lazy"
-            alt="" class="logo"></a>
-        <div id="w-node-_07425466-8eb7-6e44-8292-395d2ea97ccb-2ea97ca8" class="block-navbar"><a href="/blog"
-            class="nav-link w-nav-link">Journal</a>
-          <div data-hover="true" data-delay="300" class="dropdown w-dropdown">
-            <div class="dropdown-toggle w-dropdown-toggle">
-              <div class="dropdown-text">Services</div>
-              <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-            </div>
-            <nav class="dropdown-list w-dropdown-list"><a href="/services/services-a"
-                class="dropdown-link w-dropdown-link">Services A</a><a href="/services/services-b"
-                class="dropdown-link w-dropdown-link">Services B</a><a href="/services/services-c"
-                class="dropdown-link w-dropdown-link">Services C</a></nav>
-          </div><a href="/shop" class="nav-link w-nav-link">Shop</a>
-        </div>
-      </div>
-    </nav>
-    <div class="cart-block">
-      <div data-node-type="commerce-cart-wrapper" data-open-product="" data-wf-cart-type="modal" data-wf-cart-query="query Dynamo2 {
-  database {
-    id
-    commerceOrder {
-      comment
-      extraItems {
-        name
-        pluginId
-        pluginName
-        price {
-          value
-          unit
-          decimalValue
-          string
-        }
-      }
-      id
-      startedOn
-      statusFlags {
-        hasDownloads
-        hasSubscription
-        isFreeOrder
-        requiresShipping
-      }
-      subtotal {
-        value
-        unit
-        decimalValue
-        string
-      }
-      total {
-        value
-        unit
-        decimalValue
-        string
-      }
-      updatedOn
-      userItems {
-        count
-        id
-        price {
-          value
-          unit
-          decimalValue
-          string
-        }
-        product {
-          id
-          cmsLocaleId
-          f__draft_0ht
-          f__archived_0ht
-          f_name_
-          f_sku_properties_3dr {
-            id
-            name
-            enum {
-              id
-              name
-              slug
-            }
-          }
-        }
-        rowTotal {
-          value
-          unit
-          decimalValue
-          string
-        }
-        sku {
-          cmsLocaleId
-          f__draft_0ht
-          f__archived_0ht
-          f_main_image_4dr {
-            url
-            file {
-              size
-              origFileName
-              createdOn
-              updatedOn
-              mimeType
-              width
-              height
-              variants {
-                origFileName
-                quality
-                height
-                width
-                s3Url
-                error
-                size
-              }
-            }
-            alt
-          }
-          f_sku_values_3dr {
-            property {
-              id
-            }
-            value {
-              id
-            }
-          }
-          id
-        }
-        subscriptionFrequency
-        subscriptionInterval
-        subscriptionTrial
-      }
-      userItemsCount
-    }
-  }
-  site {
-    id
-    commerce {
-      businessAddress {
-        country
-      }
-      defaultCountry
-      defaultCurrency
-      quickCheckoutEnabled
-    }
-  }
-}" data-wf-page-link-href-prefix="" data-wf-cart-duration="400" class="w-commerce-commercecartwrapper cart"><a href="#"
-          data-node-type="commerce-cart-open-link" class="w-commerce-commercecartopenlink cart-button w-inline-block"
-          role="button" aria-haspopup="dialog" aria-label="Open cart">
-          <div class="text-cart">Cart</div><img src="images/611c4ec52765e5a4d79e103a_Shopping%20Cart.svg" loading="lazy"
-            alt="" class="icon-cart">
-          <div
-            data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22Number%22%2C%22filter%22%3A%7B%22type%22%3A%22numberPrecision%22%2C%22params%22%3A%5B%220%22%2C%22numberPrecision%22%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItemsCount%22%7D%7D%5D"
-            style="display:none" data-count-hide-rule="always"
-            class="w-commerce-commercecartopenlinkcount cart-quantity">0</div>
-        </a>
-        <div data-node-type="commerce-cart-container-wrapper" style="display:none"
-          class="w-commerce-commercecartcontainerwrapper w-commerce-commercecartcontainerwrapper--cartType-modal cart-wrapper">
-          <div data-node-type="commerce-cart-container" role="dialog"
-            class="w-commerce-commercecartcontainer cart-container">
-            <div class="w-commerce-commercecartheader cart-header">
-              <h4 class="w-commerce-commercecartheading">Your Cart</h4><a href="#"
-                data-node-type="commerce-cart-close-link"
-                class="w-commerce-commercecartcloselink close-button w-inline-block" role="button"
-                aria-label="Close cart"><img src="images/611c69ec1c6a7bdab32902c9_Close.svg" loading="lazy" alt=""
-                  class="icon-close"></a>
-            </div>
-            <div class="border-ecommerce"></div>
-            <div class="w-commerce-commercecartformwrapper">
-              <form data-node-type="commerce-cart-form" style="display:none" class="w-commerce-commercecartform">
-                <script type="text/x-wf-template"
-                  id="wf-template-de437f12-be64-24e4-78bc-758f51114cd9">%3Cdiv%20class%3D%22w-commerce-commercecartitem%20cart-item%22%3E%3Cimg%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%255D%22%20src%3D%22%22%20alt%3D%22%22%20class%3D%22w-commerce-commercecartitemimage%20image-cart-item%20w-dyn-bind-empty%22%2F%3E%3Cdiv%20class%3D%22w-commerce-commercecartiteminfo%22%3E%3Cdiv%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_name_%2522%257D%257D%255D%22%20class%3D%22w-commerce-commercecartproductname%20cart-item-name%20w-dyn-bind-empty%22%3E%3C%2Fdiv%3E%3Cdiv%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePrice%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522price%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.price%2522%257D%257D%255D%22%20class%3D%22cart-item-price%22%3E%24%C2%A00.00%C2%A0USD%3C%2Fdiv%3E%3Cscript%20type%3D%22text%2Fx-wf-template%22%20id%3D%22wf-template-de437f12-be64-24e4-78bc-758f51114cdf%22%3E%253Cli%253E%253Cspan%2520data-wf-bindings%253D%2522%25255B%25257B%252522innerHTML%252522%25253A%25257B%252522type%252522%25253A%252522PlainText%252522%25252C%252522filter%252522%25253A%25257B%252522type%252522%25253A%252522identity%252522%25252C%252522params%252522%25253A%25255B%25255D%25257D%25252C%252522dataPath%252522%25253A%252522database.commerceOrder.userItems%25255B%25255D.product.f_sku_properties_3dr%25255B%25255D.name%252522%25257D%25257D%25255D%2522%2520class%253D%2522w-dyn-bind-empty%2522%253E%253C%252Fspan%253E%253Cspan%253E%253A%2520%253C%252Fspan%253E%253Cspan%2520data-wf-bindings%253D%2522%25255B%25257B%252522innerHTML%252522%25253A%25257B%252522type%252522%25253A%252522CommercePropValues%252522%25252C%252522filter%252522%25253A%25257B%252522type%252522%25253A%252522identity%252522%25252C%252522params%252522%25253A%25255B%25255D%25257D%25252C%252522dataPath%252522%25253A%252522database.commerceOrder.userItems%25255B%25255D.product.f_sku_properties_3dr%25255B%25255D%252522%25257D%25257D%25255D%2522%2520class%253D%2522w-dyn-bind-empty%2522%253E%253C%252Fspan%253E%253C%252Fli%253E%3C%2Fscript%3E%3Cul%20data-wf-bindings%3D%22%255B%257B%2522optionSets%2522%253A%257B%2522type%2522%253A%2522CommercePropTable%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%5B%5D%2522%257D%257D%252C%257B%2522optionValues%2522%253A%257B%2522type%2522%253A%2522CommercePropValues%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_sku_values_3dr%2522%257D%257D%255D%22%20class%3D%22w-commerce-commercecartoptionlist%22%20data-wf-collection%3D%22database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%22%20data-wf-template-id%3D%22wf-template-de437f12-be64-24e4-78bc-758f51114cdf%22%3E%3Cli%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D.name%2522%257D%257D%255D%22%20class%3D%22w-dyn-bind-empty%22%3E%3C%2Fspan%3E%3Cspan%3E%3A%20%3C%2Fspan%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePropValues%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D%2522%257D%257D%255D%22%20class%3D%22w-dyn-bind-empty%22%3E%3C%2Fspan%3E%3C%2Fli%3E%3C%2Ful%3E%3Ca%20href%3D%22%23%22%20role%3D%22%22%20data-wf-bindings%3D%22%255B%257B%2522data-commerce-sku-id%2522%253A%257B%2522type%2522%253A%2522ItemRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.id%2522%257D%257D%255D%22%20class%3D%22remove-button%20w-inline-block%22%20data-wf-cart-action%3D%22remove-item%22%20data-commerce-sku-id%3D%22%22%20aria-label%3D%22Remove%20item%20from%20cart%22%3E%3Cdiv%20class%3D%22text-remove%22%3ERemove%3C%2Fdiv%3E%3C%2Fa%3E%3C%2Fdiv%3E%3Cinput%20data-wf-bindings%3D%22%255B%257B%2522value%2522%253A%257B%2522type%2522%253A%2522Number%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522numberPrecision%2522%252C%2522params%2522%253A%255B%25220%2522%252C%2522numberPrecision%2522%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.count%2522%257D%257D%252C%257B%2522data-commerce-sku-id%2522%253A%257B%2522type%2522%253A%2522ItemRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.id%2522%257D%257D%255D%22%20class%3D%22w-commerce-commercecartquantity%20cart-quantity-item%22%20required%3D%22%22%20pattern%3D%22%5E%5B0-9%5D%2B%24%22%20inputMode%3D%22numeric%22%20type%3D%22number%22%20name%3D%22quantity%22%20autoComplete%3D%22off%22%20data-wf-cart-action%3D%22update-item-quantity%22%20data-commerce-sku-id%3D%22%22%20value%3D%221%22%2F%3E%3C%2Fdiv%3E</script>
-                <div class="w-commerce-commercecartlist cart-list" data-wf-collection="database.commerceOrder.userItems"
-                  data-wf-template-id="wf-template-de437f12-be64-24e4-78bc-758f51114cd9">
-                  <div class="w-commerce-commercecartitem cart-item"><img
-                      data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D"
-                      src="" alt="" class="w-commerce-commercecartitemimage image-cart-item w-dyn-bind-empty">
-                    <div class="w-commerce-commercecartiteminfo">
-                      <div
-                        data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_name_%22%7D%7D%5D"
-                        class="w-commerce-commercecartproductname cart-item-name w-dyn-bind-empty"></div>
-                      <div
-                        data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePrice%22%2C%22filter%22%3A%7B%22type%22%3A%22price%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.price%22%7D%7D%5D"
-                        class="cart-item-price">$�&nbsp;0.00�&nbsp;USD</div>
-                      <script type="text/x-wf-template"
-                        id="wf-template-de437f12-be64-24e4-78bc-758f51114cdf">%3Cli%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D.name%2522%257D%257D%255D%22%20class%3D%22w-dyn-bind-empty%22%3E%3C%2Fspan%3E%3Cspan%3E%3A%20%3C%2Fspan%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePropValues%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D%2522%257D%257D%255D%22%20class%3D%22w-dyn-bind-empty%22%3E%3C%2Fspan%3E%3C%2Fli%3E</script>
-                      <ul
-                        data-wf-bindings="%5B%7B%22optionSets%22%3A%7B%22type%22%3A%22CommercePropTable%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr[]%22%7D%7D%2C%7B%22optionValues%22%3A%7B%22type%22%3A%22CommercePropValues%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_sku_values_3dr%22%7D%7D%5D"
-                        class="w-commerce-commercecartoptionlist"
-                        data-wf-collection="database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr"
-                        data-wf-template-id="wf-template-de437f12-be64-24e4-78bc-758f51114cdf">
-                        <li><span
-                            data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr%5B%5D.name%22%7D%7D%5D"
-                            class="w-dyn-bind-empty"></span><span>: </span><span
-                            data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePropValues%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr%5B%5D%22%7D%7D%5D"
-                            class="w-dyn-bind-empty"></span></li>
-                      </ul><a href="#" role=""
-                        data-wf-bindings="%5B%7B%22data-commerce-sku-id%22%3A%7B%22type%22%3A%22ItemRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.id%22%7D%7D%5D"
-                        class="remove-button w-inline-block" data-wf-cart-action="remove-item" data-commerce-sku-id=""
-                        aria-label="Remove item from cart">
-                        <div class="text-remove">Remove</div>
-                      </a>
-                    </div><input
-                      data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22Number%22%2C%22filter%22%3A%7B%22type%22%3A%22numberPrecision%22%2C%22params%22%3A%5B%220%22%2C%22numberPrecision%22%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.count%22%7D%7D%2C%7B%22data-commerce-sku-id%22%3A%7B%22type%22%3A%22ItemRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.id%22%7D%7D%5D"
-                      class="w-commerce-commercecartquantity cart-quantity-item" required="" pattern="^[0-9]+$"
-                      inputmode="numeric" type="number" name="quantity" autocomplete="off"
-                      data-wf-cart-action="update-item-quantity" data-commerce-sku-id="" value="1">
-                  </div>
-                </div>
-                <div class="border-ecommerce"></div>
-                <div class="w-commerce-commercecartfooter cart-footer">
-                  <div aria-live="" aria-atomic="false" class="w-commerce-commercecartlineitem cart-line-item">
-                    <div>Subtotal</div>
-                    <div
-                      data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePrice%22%2C%22filter%22%3A%7B%22type%22%3A%22price%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.subtotal%22%7D%7D%5D"
-                      class="w-commerce-commercecartordervalue text-subtotal"></div>
-                  </div>
-                  <div>
-                    <div data-wf-paypal-button="{"
-                      layout":"horizontal","color":"blue","shape":"rect","label":"paypal","tagline":false,"note":false}"=""
-                      class="paypal"></div>
-                    <div data-node-type="commerce-cart-quick-checkout-actions" style="display:none"
-                      class="web-payments"><a role="button" aria-haspopup="dialog" aria-label="Apple Pay"
-                        data-node-type="commerce-cart-apple-pay-button"
-                        style="background-image:-webkit-named-image(apple-pay-logo-white);background-size:100% 50%;background-position:50% 50%;background-repeat:no-repeat"
-                        class="w-commerce-commercecartapplepaybutton apple-pay" tabindex="0">
-                        <div></div>
-                      </a><a role="button" tabindex="0" aria-haspopup="dialog"
-                        data-node-type="commerce-cart-quick-checkout-button" style="display:none"
-                        class="w-commerce-commercecartquickcheckoutbutton pay-with-browser"><svg
-                          class="w-commerce-commercequickcheckoutgoogleicon" xmlns="http://www.w3.org/2000/svg"
-                          xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
-                          <defs>
-                            <polygon id="google-mark-a" points="0 .329 3.494 .329 3.494 7.649 0 7.649"></polygon>
-                            <polygon id="google-mark-c" points=".894 0 13.169 0 13.169 6.443 .894 6.443"></polygon>
-                          </defs>
-                          <g fill="none" fill-rule="evenodd">
-                            <path fill="#4285F4"
-                              d="M10.5967,12.0469 L10.5967,14.0649 L13.1167,14.0649 C14.6047,12.6759 15.4577,10.6209 15.4577,8.1779 C15.4577,7.6339 15.4137,7.0889 15.3257,6.5559 L7.8887,6.5559 L7.8887,9.6329 L12.1507,9.6329 C11.9767,10.6119 11.4147,11.4899 10.5967,12.0469">
-                            </path>
-                            <path fill="#34A853"
-                              d="M7.8887,16 C10.0137,16 11.8107,15.289 13.1147,14.067 C13.1147,14.066 13.1157,14.065 13.1167,14.064 L10.5967,12.047 C10.5877,12.053 10.5807,12.061 10.5727,12.067 C9.8607,12.556 8.9507,12.833 7.8887,12.833 C5.8577,12.833 4.1387,11.457 3.4937,9.605 L0.8747,9.605 L0.8747,11.648 C2.2197,14.319 4.9287,16 7.8887,16">
-                            </path>
-                            <g transform="translate(0 4)">
-                              <mask id="google-mark-b" fill="#fff">
-                                <use xlink:href="#google-mark-a"></use>
-                              </mask>
-                              <path fill="#FBBC04"
-                                d="M3.4639,5.5337 C3.1369,4.5477 3.1359,3.4727 3.4609,2.4757 L3.4639,2.4777 C3.4679,2.4657 3.4749,2.4547 3.4789,2.4427 L3.4939,0.3287 L0.8939,0.3287 C0.8799,0.3577 0.8599,0.3827 0.8459,0.4117 C-0.2821,2.6667 -0.2821,5.3337 0.8459,7.5887 L0.8459,7.5997 C0.8549,7.6167 0.8659,7.6317 0.8749,7.6487 L3.4939,5.6057 C3.4849,5.5807 3.4729,5.5587 3.4639,5.5337"
-                                mask="url(#google-mark-b)"></path>
-                            </g>
-                            <mask id="google-mark-d" fill="#fff">
-                              <use xlink:href="#google-mark-c"></use>
-                            </mask>
-                            <path fill="#EA4335"
-                              d="M0.894,4.3291 L3.478,6.4431 C4.113,4.5611 5.843,3.1671 7.889,3.1671 C9.018,3.1451 10.102,3.5781 10.912,4.3671 L13.169,2.0781 C11.733,0.7231 9.85,-0.0219 7.889,0.0001 C4.941,0.0001 2.245,1.6791 0.894,4.3291"
-                              mask="url(#google-mark-d)"></path>
-                          </g>
-                        </svg><svg class="w-commerce-commercequickcheckoutmicrosofticon"
-                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-                          <g fill="none" fill-rule="evenodd">
-                            <polygon fill="#F05022" points="7 7 1 7 1 1 7 1"></polygon>
-                            <polygon fill="#7DB902" points="15 7 9 7 9 1 15 1"></polygon>
-                            <polygon fill="#00A4EE" points="7 15 1 15 1 9 7 9"></polygon>
-                            <polygon fill="#FFB700" points="15 15 9 15 9 9 15 9"></polygon>
-                          </g>
-                        </svg>
-                        <div>Pay with browser.</div>
-                      </a></div><a href="/checkout" value="Continue to Checkout" data-node-type="cart-checkout-button"
-                      class="w-commerce-commercecartcheckoutbutton checkout-button"
-                      data-loading-text="Hang Tight...">Continue to Checkout</a>
-                  </div>
-                </div>
-              </form>
-              <div class="w-commerce-commercecartemptystate cart-empty-state">
-                <div class="text-cart-empty">There are not items in your cart.</div><a href="/shop"
-                  class="button w-button">Back To Shop</a>
-              </div>
-              <div aria-live="" style="display:none" data-node-type="commerce-cart-error"
-                class="w-commerce-commercecarterrorstate cart-error-state">
-                <div class="text-error w-cart-error-msg"
-                  data-w-cart-quantity-error="Product is not available in this quantity."
-                  data-w-cart-general-error="Something went wrong when adding this item to the cart."
-                  data-w-cart-checkout-error="Checkout is disabled on this site."
-                  data-w-cart-cart_order_min-error="The order minimum was not met. Add more items to your cart to continue."
-                  data-w-cart-subscription_error-error="Before you purchase, please use your email invite to verify your address so we can send order updates.">
-                  Product is not available in this quantity.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="menu-button w-nav-button"><img src="images/611c5e91d1971567b139e90e_Menu.svg" loading="lazy" alt=""
-        class="icon-menu"></div>
-    <div class="border-nav"></div>
-  </div>
+
   <div data-w-id="65d9ebc3-8b99-aaed-b18e-cc89a3be0aa1" class="overflow">
     <div class="section-hero">
       <div class="content wide">
         <div data-w-id="431537a0-a345-831e-c502-7cecf11d9aa4" class="hero---a">
           <div class="w-layout-grid grid-hero---a">
-            <div class="overflow-hero---a"><img class="image-hero---a" src="images/610b4126a35dd31cb8da134d_home_a1.jpg"
-                alt="" style="opacity:0" sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
+            <div class="overflow-hero---a"><img class="image-hero---a" src="images/top1.jpg" alt="" style="opacity:0"
+                sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
                 data-w-id="2eac0291-20b4-df0a-a7b8-0432016f3581" loading="lazy"
-                srcset="images/610b4126a35dd31cb8da134d_home_a1-p-500.jpeg 500w, images/610b4126a35dd31cb8da134d_home_a1-p-800.jpeg 800w, images/610b4126a35dd31cb8da134d_home_a1.jpg 803w">
+                srcset="images/top1.jpg 500w, images/top1.jpg 800w, images/top1.jpg 803w">
             </div>
-            <div class="overflow-hero---a"><img class="image-hero---a" src="images/610b4126b00a600bfdb60d4b_home_a2.jpg"
-                alt="" style="opacity:0" sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
+            <div class="overflow-hero---a"><img class="image-hero---a" src="images/top2.webp" alt="" style="opacity:0"
+                sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
                 data-w-id="048cee56-2183-a00c-0f94-60d71c46fbb2" loading="lazy"
-                srcset="images/610b4126b00a600bfdb60d4b_home_a2-p-500.jpeg 500w, images/610b4126b00a600bfdb60d4b_home_a2-p-800.jpeg 800w, images/610b4126b00a600bfdb60d4b_home_a2.jpg 803w">
+                srcset="images/top2.webp 500w, images/top2.webp 800w, images/top2.webp 803w">
             </div>
-            <div class="overflow-hero---a"><img class="image-hero---a" src="images/610b412633b829429dbd6b27_home_a3.jpg"
-                alt="" style="opacity:0" sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
+            <div class="overflow-hero---a"><img class="image-hero---a" src="images/top3.jpeg" alt="" style="opacity:0"
+                sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
                 data-w-id="47f0220a-3a65-9f67-bfc1-80fbef700bba" loading="lazy"
-                srcset="images/610b412633b829429dbd6b27_home_a3-p-500.jpeg 500w, images/610b412633b829429dbd6b27_home_a3-p-800.jpeg 800w, images/610b412633b829429dbd6b27_home_a3.jpg 803w">
+                srcset="images/top3.jpeg 500w, images/top3.jpeg 800w, images/top3.jpeg 803w">
             </div>
           </div>
           <div class="block-hero---a">
@@ -403,11 +86,10 @@
       <div class="content">
         <div class="w-layout-grid grid-3-columns">
           <div class="service"><a data-w-id="1edcec4b-165a-faed-40cd-4c23fcdd11a9" href="/services/services-a"
-              class="overflow-service w-inline-block"><img class="image-service"
-                src="images/610c80ecf92b9227f9cf593e_img_1.jpg" alt="" style="opacity:0"
-                sizes="(max-width: 479px) 77vw, (max-width: 767px) 76vw, 96vw"
+              class="overflow-service w-inline-block"><img class="image-service" src="images/mid1.jpeg" alt=""
+                style="opacity:0" sizes="(max-width: 479px) 77vw, (max-width: 767px) 76vw, 96vw"
                 data-w-id="ee3764b3-4cb2-9703-2d64-3cb30f39cd6f" loading="lazy"
-                srcset="images/610c80ecf92b9227f9cf593e_img_1-p-500.jpeg 500w, images/610c80ecf92b9227f9cf593e_img_1-p-800.jpeg 800w, images/610c80ecf92b9227f9cf593e_img_1.jpg 805w"></a>
+                srcset="images/mid1.jpeg 500w, images/mid1.jpeg 800w, images/mid1.jpeg 805w"></a>
             <div class="block-service"><a href="/services/services-a" class="link-service w-inline-block">
                 <h4 class="heading-service">Weddings</h4>
               </a>
@@ -416,10 +98,10 @@
             </div>
           </div>
           <div class="service"><a href="/services/services-a" class="overflow-service w-inline-block"><img
-                class="image-service" src="images/610c80eca585763bdb6fbc56_img_2.jpg" alt="" style="opacity:0"
+                class="image-service" src="images/mid2.jpeg" alt="" style="opacity:0"
                 sizes="(max-width: 479px) 77vw, (max-width: 767px) 76vw, 96vw"
                 data-w-id="fb10e5fd-6d82-ac5d-608b-dd37d3c2b309" loading="lazy"
-                srcset="images/610c80eca585763bdb6fbc56_img_2-p-500.jpeg 500w, images/610c80eca585763bdb6fbc56_img_2-p-800.jpeg 800w, images/610c80eca585763bdb6fbc56_img_2.jpg 805w"></a>
+                srcset="images/mid2.jpeg 500w, images/610c80eca585763bdb6fbc56_img_2-p-800.jpeg 800w, images/mid2.jpeg 805w"></a>
             <div class="block-service"><a href="/services/services-a" class="link-service w-inline-block">
                 <h4 class="heading-service">Event Design</h4>
               </a>
@@ -429,10 +111,10 @@
             </div>
           </div>
           <div class="service"><a href="/services/services-a" class="overflow-service w-inline-block"><img
-                class="image-service" src="images/610c80ec3798f1029502d222_img_3.jpg" alt="" style="opacity:0"
+                class="image-service" src="images/mid3.jpeg" alt="" style="opacity:0"
                 sizes="(max-width: 479px) 77vw, (max-width: 767px) 76vw, 96vw"
                 data-w-id="c71e6a5f-3e0d-18d8-94f7-300719d287d8" loading="lazy"
-                srcset="images/610c80ec3798f1029502d222_img_3-p-500.jpeg 500w, images/610c80ec3798f1029502d222_img_3-p-800.jpeg 800w, images/610c80ec3798f1029502d222_img_3.jpg 805w"></a>
+                srcset="images/mid3.jpeg 500w, images/610c80ec3798f1029502d222_img_3-p-800.jpeg 800w, images/mid3.jpeg 805w"></a>
             <div class="block-service"><a href="/services/services-a" class="link-service w-inline-block">
                 <h4 class="heading-service">Branding</h4>
               </a>
@@ -457,10 +139,10 @@
             </div>
           </div>
           <div id="w-node-d2924451-e09a-bd31-2cf5-d17c83bb6e82-6c01f26c" class="postcard---image">
-            <div class="overflow-image"><img class="image" src="images/610c869f09424720d94e3a6f_img_4.jpg" alt=""
-                style="opacity:0" sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
+            <div class="overflow-image"><img class="image" src="images/large.png" alt="" style="opacity:0"
+                sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
                 data-w-id="0bbd957c-f07a-58b9-64b3-eb07d2161431" loading="lazy"
-                srcset="images/610c869f09424720d94e3a6f_img_4-p-500.jpeg 500w, images/610c869f09424720d94e3a6f_img_4-p-800.jpeg 800w, images/610c869f09424720d94e3a6f_img_4.jpg 805w">
+                srcset="images/large.png 500w, images/large.png 800w, images/large.png 805w">
             </div><img src="images/610b43d6b6c024c89d1812f4_flower_1.png" loading="eager" style="opacity:0"
               data-w-id="e07efab1-2405-6403-610c-990a8c6de499" alt="" class="flower-postcard---a"><img
               src="images/610c8b93895b7accc322bb80_flower_3.png" loading="eager" style="opacity:0"
@@ -480,11 +162,10 @@
         </div>
         <div class="w-layout-grid grid-galleries">
           <div class="w-layout-grid grid-galleries---row"><a href="#"
-              class="lightbox-link w-inline-block w-lightbox"><img class="image-lightbox"
-                src="images/610c80ecf92b9227f9cf593e_img_1.jpg" alt="" style="opacity:0"
-                sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
+              class="lightbox-link w-inline-block w-lightbox"><img class="image-lightbox" src="images/collect1.jpeg"
+                alt="" style="opacity:0" sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
                 data-w-id="a6f09a9e-8bf9-7826-a8c5-462920777112" loading="lazy"
-                srcset="images/610c80ecf92b9227f9cf593e_img_1-p-500.jpeg 500w, images/610c80ecf92b9227f9cf593e_img_1-p-800.jpeg 800w, images/610c80ecf92b9227f9cf593e_img_1.jpg 805w">
+                srcset="images/collect1.jpeg 500w, images/collect1.jpeg 800w, images/collect1.jpeg 805w">
               <script type="application/json" class="w-json">{
   "items": [
     {
@@ -501,10 +182,10 @@
   "group": "Galleries"
 }</script>
             </a><a href="#" class="lightbox-link w-inline-block w-lightbox"><img class="image-lightbox"
-                src="images/610c995bd5f573418e62eb65_img_11.jpg" alt="" style="opacity:0"
+                src="images/collect2.webp" alt="" style="opacity:0"
                 sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
                 data-w-id="61bf5a87-44ad-c121-3195-4bc6ac42f217" loading="lazy"
-                srcset="images/610c995bd5f573418e62eb65_img_11-p-800.jpeg 800w, images/610c995bd5f573418e62eb65_img_11.jpg 1000w">
+                srcset="images/collect2.webpg 800w, images/collect2.webp 1000w">
               <script type="application/json" class="w-json">{
   "items": [
     {
@@ -522,11 +203,10 @@
 }</script>
             </a></div>
           <div class="w-layout-grid grid-galleries---row margin"><a href="#"
-              class="lightbox-link w-inline-block w-lightbox"><img class="image-lightbox"
-                src="images/610c995bd53807b403f4c0b6_img_8.jpg" alt="" style="opacity:0"
-                sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
+              class="lightbox-link w-inline-block w-lightbox"><img class="image-lightbox" src="images/collect3.webp"
+                alt="" style="opacity:0" sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
                 data-w-id="fbfc43a7-4dac-9793-33fb-7c393304338a" loading="lazy"
-                srcset="images/610c995bd53807b403f4c0b6_img_8-p-500.jpeg 500w, images/610c995bd53807b403f4c0b6_img_8-p-800.jpeg 800w, images/610c995bd53807b403f4c0b6_img_8.jpg 1000w">
+                srcset="images/collect3.webp 500w, images/collect3.webp 800w, images/collect3.webp 1000w">
               <script type="application/json" class="w-json">{
   "items": [
     {
@@ -543,10 +223,10 @@
   "group": "Galleries"
 }</script>
             </a><a href="#" class="lightbox-link w-inline-block w-lightbox"><img class="image-lightbox"
-                src="images/610c995bd538075c43f4c0b7_img_5.jpg" alt="" style="opacity:0"
+                src="images/collect4.jpeg" alt="" style="opacity:0"
                 sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
                 data-w-id="fbfc43a7-4dac-9793-33fb-7c393304338c" loading="lazy"
-                srcset="images/610c995bd538075c43f4c0b7_img_5-p-500.jpeg 500w, images/610c995bd538075c43f4c0b7_img_5.jpg 672w">
+                srcset="images/collect4.jpeg 500w, images/collect4.jpeg 672w">
               <script type="application/json" class="w-json">{
   "items": [
     {
@@ -564,11 +244,10 @@
 }</script>
             </a></div>
           <div class="w-layout-grid grid-galleries---row"><a href="#"
-              class="lightbox-link w-inline-block w-lightbox"><img class="image-lightbox"
-                src="images/610c995bdafde34ebec2fcda_img_6.jpg" alt="" style="opacity:0"
-                sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
+              class="lightbox-link w-inline-block w-lightbox"><img class="image-lightbox" src="images/collect5.webp"
+                alt="" style="opacity:0" sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
                 data-w-id="8858bd89-a6d5-27b1-239d-2960840591a7" loading="lazy"
-                srcset="images/610c995bdafde34ebec2fcda_img_6-p-500.jpeg 500w, images/610c995bdafde34ebec2fcda_img_6.jpg 745w">
+                srcset="images/collect5.webp 500w, images/collect5.webp 745w">
               <script type="application/json" class="w-json">{
   "items": [
     {
@@ -584,9 +263,9 @@
   ],
   "group": "Galleries"
 }</script>
-            </a><a href="#" class="lightbox-link w-inline-block w-lightbox"><img
-                src="images/610c995bcfbb690982663a69_img_10.jpg" loading="lazy" style="opacity:0"
-                data-w-id="8858bd89-a6d5-27b1-239d-2960840591a9" alt="" class="image-lightbox">
+            </a><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="images/collect6.jpeg"
+                loading="lazy" style="opacity:0" data-w-id="8858bd89-a6d5-27b1-239d-2960840591a9" alt=""
+                class="image-lightbox">
               <script type="application/json" class="w-json">{
   "items": [
     {
@@ -604,11 +283,10 @@
 }</script>
             </a></div>
           <div class="w-layout-grid grid-galleries---row margin"><a href="#"
-              class="lightbox-link w-inline-block w-lightbox"><img class="image-lightbox"
-                src="images/610c995b895b7a5ff922e5e9_img_9.jpg" alt="" style="opacity:0"
-                sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
+              class="lightbox-link w-inline-block w-lightbox"><img class="image-lightbox" src="images/collect7.jpeg"
+                alt="" style="opacity:0" sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
                 data-w-id="eef105b5-f286-7b07-b866-5c3ba2922ac0" loading="lazy"
-                srcset="images/610c995b895b7a5ff922e5e9_img_9-p-800.jpeg 800w, images/610c995b895b7a5ff922e5e9_img_9.jpg 1000w">
+                srcset="images/collect7.jpeg 800w, images/collect7.jpeg 1000w">
               <script type="application/json" class="w-json">{
   "items": [
     {
@@ -625,10 +303,10 @@
   "group": "Galleries"
 }</script>
             </a><a href="#" class="lightbox-link w-inline-block w-lightbox"><img class="image-lightbox"
-                src="images/610c995b85d7d7248a813449_img_7.jpg" alt="" style="opacity:0"
+                src="images/collect8.jpeg" alt="" style="opacity:0"
                 sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
                 data-w-id="eef105b5-f286-7b07-b866-5c3ba2922ac2" loading="lazy"
-                srcset="images/610c995b85d7d7248a813449_img_7-p-500.jpeg 500w, images/610c995b85d7d7248a813449_img_7.jpg 674w">
+                srcset="images/collect8.jpeg 500w, images/collect8.jpeg 674w">
               <script type="application/json" class="w-json">{
   "items": [
     {
@@ -707,38 +385,35 @@
           <div role="list" class="collection-list---portfolio w-dyn-items">
             <div role="listitem" class="collection-item---portfolio w-dyn-item"><a href="/portfolio/jennifer-oliver"
                 class="overflow-portfolio w-inline-block"><img data-w-id="128ec803-9ac1-d8f2-30b6-977b84c058b3"
-                  loading="lazy" style="opacity:0" src="images/610dee1a9558a9c39348d5d3_portfolio_1.jpg"
-                  alt="Jennifer &amp; Oliver" sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, 23vw"
-                  srcset="images/610dee1a9558a9c39348d5d3_portfolio_1-p-500.jpeg 500w, images/610dee1a9558a9c39348d5d3_portfolio_1.jpg 628w"
-                  class="image-portfolio"></a>
+                  loading="lazy" style="opacity:0" src="images/collect9.webp" alt="Jennifer &amp; Oliver"
+                  sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, 23vw"
+                  srcset="images/collect9.webp 500w, images/collect9.webp 628w" class="image-portfolio"></a>
               <div class="block-portfolio"><a href="/portfolio/jennifer-oliver" class="link-portfolio w-inline-block">
                   <h5 class="heading-portfolio">Jennifer &amp; Oliver</h5>
                 </a><a href="/portfolio/jennifer-oliver" class="link">learn more</a></div>
             </div>
             <div role="listitem" class="collection-item---portfolio w-dyn-item"><a href="/portfolio/briana-richard"
                 class="overflow-portfolio w-inline-block"><img data-w-id="128ec803-9ac1-d8f2-30b6-977b84c058b3"
-                  loading="lazy" style="opacity:0" src="images/610dede8766d49ed3a2300f3_portfolio_2.jpg"
-                  alt="Briana &amp; Richard" class="image-portfolio"></a>
+                  loading="lazy" style="opacity:0" src="images/collect10.webp" alt="Briana &amp; Richard"
+                  class="image-portfolio"></a>
               <div class="block-portfolio"><a href="/portfolio/briana-richard" class="link-portfolio w-inline-block">
                   <h5 class="heading-portfolio">Briana &amp; Richard</h5>
                 </a><a href="/portfolio/briana-richard" class="link">learn more</a></div>
             </div>
             <div role="listitem" class="collection-item---portfolio w-dyn-item"><a href="/portfolio/anne-cameron"
                 class="overflow-portfolio w-inline-block"><img data-w-id="128ec803-9ac1-d8f2-30b6-977b84c058b3"
-                  loading="lazy" style="opacity:0" src="images/610dedc29c43a564818d5bd1_portfolio_3.jpg"
-                  alt="Anne &amp; Cameron" sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, 23vw"
-                  srcset="images/610dedc29c43a564818d5bd1_portfolio_3-p-500.jpeg 500w, images/610dedc29c43a564818d5bd1_portfolio_3.jpg 628w"
-                  class="image-portfolio"></a>
+                  loading="lazy" style="opacity:0" src="images/collect11.webp" alt="Anne &amp; Cameron"
+                  sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, 23vw"
+                  srcset="images/collect11.webp 500w, images/collect11.webp 628w" class="image-portfolio"></a>
               <div class="block-portfolio"><a href="/portfolio/anne-cameron" class="link-portfolio w-inline-block">
                   <h5 class="heading-portfolio">Anne &amp; Cameron</h5>
                 </a><a href="/portfolio/anne-cameron" class="link">learn more</a></div>
             </div>
             <div role="listitem" class="collection-item---portfolio w-dyn-item"><a href="/portfolio/linda-charles"
                 class="overflow-portfolio w-inline-block"><img data-w-id="128ec803-9ac1-d8f2-30b6-977b84c058b3"
-                  loading="lazy" style="opacity:0" src="images/610ded65ec6be73dc143021b_portfolio_4.jpg"
-                  alt="Linda &amp; Charles" sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, 23vw"
-                  srcset="images/610ded65ec6be73dc143021b_portfolio_4-p-500.jpeg 500w, images/610ded65ec6be73dc143021b_portfolio_4.jpg 628w"
-                  class="image-portfolio"></a>
+                  loading="lazy" style="opacity:0" src="images/collect12.jpg" alt="Linda &amp; Charles"
+                  sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, 23vw"
+                  srcset="images/collect12.jpg 500w, images/collect12.jpg 628w" class="image-portfolio"></a>
               <div class="block-portfolio"><a href="/portfolio/linda-charles" class="link-portfolio w-inline-block">
                   <h5 class="heading-portfolio">Linda &amp; Charles</h5>
                 </a><a href="/portfolio/linda-charles" class="link">learn more</a></div>
@@ -761,10 +436,10 @@
             </div>
           </div>
           <div id="w-node-bd4b83d7-4172-b584-e8bd-71526bc4898d-6c01f26c" class="postcard---image">
-            <div class="overflow-image"><img class="image" src="images/610df60220b64c18e8457e38_img_12.jpg" alt=""
-                style="opacity:0" sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
+            <div class="overflow-image"><img class="image" src="images/large2.jpg" alt="" style="opacity:0"
+                sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
                 data-w-id="bd4b83d7-4172-b584-e8bd-71526bc4898f" loading="lazy"
-                srcset="images/610df60220b64c18e8457e38_img_12-p-500.jpeg 500w, images/610df60220b64c18e8457e38_img_12-p-800.jpeg 800w, images/610df60220b64c18e8457e38_img_12.jpg 805w">
+                srcset="images/large2.jpg 500w, images/large2.jpg 800w, images/large2.jpg 805w">
             </div><img src="images/610b43d611194a874e2d3f7f_flower_2.png" loading="eager" style="opacity:0"
               data-w-id="bd4b83d7-4172-b584-e8bd-71526bc48990" alt="" class="flower-postcard---c"><img
               src="images/610c8b9392065e16f1e8152e_flower_5.png" loading="eager" style="opacity:0"
@@ -780,23 +455,21 @@
           <h3 class="heading">Instagram</h3>
         </div>
         <div class="w-layout-grid grid-instagram"><a href="https://www.instagram.com/webflow/" target="_blank"
-            class="overflow-instagram margin w-inline-block"><img src="images/610f06acf7ff776a6ec067c3_instagram_1.jpg"
-              loading="lazy" alt="" data-w-id="0f46297b-3414-372f-f69d-c1fdbc1cd552" class="image-instagram"></a><a
+            class="overflow-instagram margin w-inline-block"><img src="images/collect13.webp" loading="lazy" alt=""
+              data-w-id="0f46297b-3414-372f-f69d-c1fdbc1cd552" class="image-instagram"></a><a
             href="https://www.instagram.com/webflow/" target="_blank" class="overflow-instagram w-inline-block"><img
-              src="images/610f06acf7ff775464c067c2_instagram_2.jpg" loading="lazy" alt=""
-              data-w-id="0f46297b-3414-372f-f69d-c1fdbc1cd554" class="image-instagram"></a><a
-            href="https://www.instagram.com/webflow/" target="_blank"
-            class="overflow-instagram margin w-inline-block"><img src="images/610f06ac4c9e821805b2636f_instagram_3.jpg"
-              loading="lazy" alt="" data-w-id="0f46297b-3414-372f-f69d-c1fdbc1cd556" class="image-instagram"></a><a
+              src="images/collect14.jpeg" loading="lazy" alt="" data-w-id="0f46297b-3414-372f-f69d-c1fdbc1cd554"
+              class="image-instagram"></a><a href="https://www.instagram.com/webflow/" target="_blank"
+            class="overflow-instagram margin w-inline-block"><img src="images/collect15.webp" loading="lazy" alt=""
+              data-w-id="0f46297b-3414-372f-f69d-c1fdbc1cd556" class="image-instagram"></a><a
             href="https://www.instagram.com/webflow/" target="_blank" class="overflow-instagram w-inline-block"><img
-              src="images/610f06ad78b53c69f4cfd1b6_instagram_4.jpg" loading="lazy" alt=""
-              data-w-id="0f46297b-3414-372f-f69d-c1fdbc1cd558" class="image-instagram"></a><a
-            href="https://www.instagram.com/webflow/" target="_blank"
-            class="overflow-instagram margin w-inline-block"><img src="images/610f06acfe7e297eb47f87bc_instagram_5.jpg"
-              loading="lazy" alt="" data-w-id="0f46297b-3414-372f-f69d-c1fdbc1cd55a" class="image-instagram"></a><a
+              src="images/collect16.jpeg" loading="lazy" alt="" data-w-id="0f46297b-3414-372f-f69d-c1fdbc1cd558"
+              class="image-instagram"></a><a href="https://www.instagram.com/webflow/" target="_blank"
+            class="overflow-instagram margin w-inline-block"><img src="images/collect17.jpeg" loading="lazy" alt=""
+              data-w-id="0f46297b-3414-372f-f69d-c1fdbc1cd55a" class="image-instagram"></a><a
             href="https://www.instagram.com/webflow/" target="_blank" class="overflow-instagram w-inline-block"><img
-              src="images/610f06ac61ddcb28c0fe0816_instagram_6.jpg" loading="lazy" alt=""
-              data-w-id="0f46297b-3414-372f-f69d-c1fdbc1cd55c" class="image-instagram"></a></div>
+              src="images/collect18.webp" loading="lazy" alt="" data-w-id="0f46297b-3414-372f-f69d-c1fdbc1cd55c"
+              class="image-instagram"></a></div>
         <div class="w-layout-grid grid-footer">
           <div class="block-footer">
             <h5 class="heading-footer">Social</h5><a href="https://www.instagram.com/webflow/" target="_blank"
